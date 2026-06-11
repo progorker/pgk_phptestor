@@ -17,7 +17,7 @@
       Using unit testing framework
 -----------------------------------------
 
-+ Simple sample from phpTestorCheck [ https://github.com/progorker/phptestorcheck ]
++ Simple sample from phpTestorCheck [ https://github.com/progorker/pgk_phptestorcheck ]
 -----
 global $g_testor_dir, $g_token, $g_suite_id;
 
