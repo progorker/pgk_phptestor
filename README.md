@@ -61,4 +61,18 @@ $) export CODE="api_testor_suite"
 $) export VARIANT="scrp"
 $) cd $PHP_TESTOR_DIR && php ./pattern.php $MODULE $KIND $CODE $VARIANT
 
+
+-|_|-------|_|---------------------------
+       Controlling source versions
+-----------------------------------------
+
+$) export PHP_TESTOR_DIR=""
+$) export PHP_WORKED_DIR=""
+$) cp -f $PHP_TESTOR_DIR/csvc.php $PHP_WORKED_DIR/
+$) cp -f $PHP_TESTOR_DIR/csvc-cfg.php $PHP_WORKED_DIR/
+$) nano $PHP_WORKED_DIR/csvc-cfg.php
+---> Modify myTestor account and other settings
+$) cd $PHP_WORKED_DIR && php ./csvc.php
+
+
 ```
