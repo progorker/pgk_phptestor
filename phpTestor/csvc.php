@@ -71,6 +71,8 @@ function g_read_cur_ver() {
 }
 
 function g_update_cur_ver() {
+  global $g_config;
+  $data_dir = $g_config['data_dir'];
   $inf_dir = $data_dir . '/ver/inf';
   @mkdir( $inf_dir, 0777, true );
   $inf_file = $inf_dir . '/cur.lst';

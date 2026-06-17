@@ -600,7 +600,7 @@ function api_testor_pattern( $p_module, $p_kind, $p_code, $p_variant, &$p_patter
 
 // Procedure: 38.
 function api_testor_startup() {
-  global $g_testor_dir, $g_suite_code, $g_testor_username, $g_testor_password, $g_token, $g_suite_id, $g_last_version, $g_clear_version;
+  global $g_testor_dir, $g_suite_code, $g_testor_username, $g_testor_password, $g_token, $g_src_dir, $g_suite_id, $g_last_version, $g_clear_version;
 
   \phptestor\api_testor_login( $g_token, $g_testor_username, $g_testor_password );
   \phptestor\api_testor_suite( $g_token, $g_suite_id, $g_suite_code );

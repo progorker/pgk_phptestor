@@ -2,7 +2,7 @@
 global $g_config;
 
 $g_config = array(
- 'mytestor.host' => '192.168.230.203',
+ 'mytestor.host' => '192.168.43.5',
  'mytestor.port' => '3306',
  'mytestor.username' => 'mytestor',
  'mytestor.password' => 'kunqhtsadzmopeh',
